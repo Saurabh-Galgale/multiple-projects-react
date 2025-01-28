@@ -1,0 +1,55 @@
+/* Global styles */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #222;
+  margin: 0;
+}
+
+/* Wrapper container */
+.container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Centered App Div */
+.appDiv {
+  width: 60vw;
+  height: 80vh;
+  background-color: #222;
+  border: 2px solid white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* Navigation buttons */
+.navButton {
+  background-color: #444;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.navButton:hover {
+  background-color: #666;
+}
+
+.left {
+  margin-right: 20px;
+}
+
+.right {
+  margin-left: 20px;
+}
