@@ -24,6 +24,11 @@ export default function App() {
 
   return (
     <div className="container">
+      <div className="projectPageNumber">
+        <h2>
+          {currentIndex + 1}/{components.length}
+        </h2>
+      </div>
       <ArrowCircleLeftOutlinedIcon
         fontSize="large"
         className="navButton left"

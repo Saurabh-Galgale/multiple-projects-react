@@ -27,6 +27,13 @@ body {
   text-align: center;
 }
 
+.projectPageNumber {
+  position: absolute;
+  top: 2%;
+  left: 50%;
+  color: white;
+}
+
 .navButton {
   background-color: #444;
   color: white;
