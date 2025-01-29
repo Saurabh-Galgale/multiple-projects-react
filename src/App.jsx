@@ -4,8 +4,9 @@ import ArrowCircleLeftOutlinedIcon from "@mui/icons-material/ArrowCircleLeftOutl
 import ArrowCircleRightOutlinedIcon from "@mui/icons-material/ArrowCircleRightOutlined";
 import OtpGenerator from "./components/OtpGenerator";
 import Hello from "./components/Hello";
+import LiveColourPicker from "./components/LiveColourPicker";
 
-const components = [OtpGenerator, Hello];
+const components = [LiveColourPicker, OtpGenerator, Hello];
 
 export default function App() {
   const [currentIndex, setCurrentIndex] = useState(0);
